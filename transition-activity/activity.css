@@ -1,1 +1,18 @@
+button:hover {
+    background-color: cornflowerblue;
+  }
 
+  button {
+    padding: 1em;
+    margin: .2em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    animation-name: there-button;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes there-button {
+    0% {background-color: ghostwhite;}
+  }
